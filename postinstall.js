@@ -1,7 +1,7 @@
 const path = require('path');
 const fs = require('fs-extra');
 const templatePath = path.resolve(__dirname, './template');
-const appPath = '.';
+const appPath = process.env.INIT_CWD || path.resolve("../../", __dirname);
 
 const renameFileIfExists = function(filePath) {
   const fileExists = fs.existsSync(path.join(appPath, filePath));

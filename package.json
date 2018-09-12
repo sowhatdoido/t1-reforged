@@ -1,10 +1,13 @@
 {
   "name": "t1-reforged",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom create-react-app configurations powered by react-app-rewire",
   "bin": "./bin/index.js",
   "author": "Frank Tran <ftransd@gmail.com>",
   "license": "ISC",
+  "scripts": {
+    "postinstall": "node ./postinstall"
+  },
   "dependencies": {
     "@sowhatdoido/react-app-rewire-eslint": "^0.2.3",
     "@sowhatdoido/react-app-rewired": "^1.6.2",
