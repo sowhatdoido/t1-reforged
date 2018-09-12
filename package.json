@@ -1,6 +1,6 @@
 {
   "name": "t1-reforged",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Custom create-react-app configurations powered by react-app-rewire",
   "bin": "./bin/index.js",
   "author": "Frank Tran <ftransd@gmail.com>",
