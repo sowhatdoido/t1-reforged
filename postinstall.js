@@ -31,6 +31,9 @@ const walkSync = function(dir, filelist) {
   return filelist;
 };
 
+// Manually rename App.js since we're replacing it with JSX
+renameFileIfExists('src/App.js');
+
 // Rename any file that already exists before copying new template files into place.
 const filelist = walkSync(templatePath).map(e => e.replace(`${templatePath}`, '').slice(1));
 filelist.map(e => renameFileIfExists(e));
