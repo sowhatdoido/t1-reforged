@@ -1,0 +1,18 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-scripts": "1.1.5",
+    "t1-reforged": "1.0.3",
+    "eslint-config-t1-reforged": "1.0.0"
+  },
+  "scripts": {
+    "start": "t1-reforged start",
+    "build": "t1-reforged build",
+    "test": "t1-reforged test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
