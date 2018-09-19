@@ -5,5 +5,8 @@
   ],
   "devDependencies": {
     "lerna": "^2.9.1"
+  },
+  "scripts": {
+    "publish": "lerna publish --skip-git"
   }
 }

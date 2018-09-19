@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-t1-reforged",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Customized eslint configurations for t1-reforged",
   "main": "index.js",
   "scripts": {
