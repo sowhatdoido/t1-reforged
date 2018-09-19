@@ -1,6 +1,3 @@
-// http://eslint.org/docs/user-guide/configuring
-// You may disable eslint by exporting an empty object
-
 module.exports = {
   root: true,
   env: {
@@ -35,7 +32,6 @@ module.exports = {
         devDependencies: ['.storybook/**', '**/*.stories.jsx'],
       },
     ],
-    'max-len': 'off',
     // disable warning for linebreak styles for cross platform development
     // TODO: we should find a way to fix this from the dev environment level
     'linebreak-style': 'off',
