@@ -6,6 +6,7 @@
   "author": "Frank Tran <ftransd@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "@babel/polyfill": "^7.0.0",
     "@sowhatdoido/react-app-rewire-eslint": "^0.2.3",
     "@sowhatdoido/react-app-rewired": "^1.6.2",
     "cross-spawn": "^6.0.5",
